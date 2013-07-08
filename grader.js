@@ -95,6 +95,7 @@ if(require.main == module) {
 	$ = cheerioHtmlFile(program.file);
 	outputJson(checkHtmlFile($, program.checks));
     }
-} else {
+} 
+else {
     exports.checkHtmlFile = checkHtmlFile;
 }
